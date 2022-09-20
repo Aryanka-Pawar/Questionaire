@@ -1,0 +1,24 @@
+.navbar{
+    display: inline-block;
+    background-color: blue;
+    width: 100%;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color:red;
+    text-decoration: none;
+    padding: 22px 12px;
+}
+.navbar li a:hover , .navbar li a.Active {
+    color:black;
+    text-decoration: underline;
+}
+.navbar li .log{
+    display: inline-block;
+    position: absolute;
+    right:34px;
+    top:20px;
+}

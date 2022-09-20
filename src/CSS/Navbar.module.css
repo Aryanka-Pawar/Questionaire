@@ -1,0 +1,9 @@
+.hoverItem {
+    text-decoration: none;
+}
+
+.hoverItem :hover{
+    background-color: yellow;
+    color: red;
+    text-decoration: none;
+}
